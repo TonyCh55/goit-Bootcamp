@@ -8,6 +8,9 @@
 
 .wrapper {
     padding-top:  40px;
+    padding-bottom: 70px;
+    margin: auto; 
+    width: 905px;
 }
 
 .menu-item {
@@ -28,10 +31,6 @@
     margin-bottom: 90px;  
 }
 
-.main {
-    margin: auto; 
-    width: 905px;
-}
 
 .article {
     width: 420px;
@@ -39,6 +38,11 @@
     display: inline-block;
     text-align: justify;
     margin-right: 60px;
+    margin-bottom: 130px;
+}
+
+.article:nth-child(n+5) {
+    margin-bottom: 0;
 }
 
 .mrg0 {
@@ -63,14 +67,14 @@
 }
 
 .p-article {
-    margin-bottom: 130px;
     color: rgba(98, 98, 98, 255);
 }
 
 .button {
     display: block;
-    margin: 0 auto 70px;
+    margin:  auto;
     font-family: 'Playfair+Display', sans-serif;
+    margin-top: 80px;
     padding: 21px 34px 22px 34px;
     font-size: 20pt;   
 }
