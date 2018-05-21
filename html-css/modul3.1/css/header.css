@@ -1,0 +1,38 @@
+.header {background-color: #23232e;
+    background-size: cover;
+    padding: 80px 0;}
+
+.article-header {
+    width: 430px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo-img{
+    margin-bottom: 185px;
+}
+
+.title {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 64px;
+}
+ .pt18-arrow {
+     margin: auto;
+     color: #fff;
+     margin-bottom: 185px;
+     font-size: 17px;
+ }
+
+ .arrow {
+     font-size: 20px;
+     color: #fff;
+ }
+
+ .circle {
+     border: 2px solid #fff;
+     border-radius: 100%;
+     padding: 10px 16px; 
+ }
+

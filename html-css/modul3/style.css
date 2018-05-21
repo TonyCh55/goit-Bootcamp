@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair+Display', sans-serif;
+    font-weight: normal;
+}
+
+.wrapper {
+    padding-top:  40px;
+}
+
+.menu-item {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 95px;
+    color: rgba(180, 173, 158, 255);
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.blue:hover {color: aqua;}
+
+.divheader {
+    text-align: center;
+    margin-bottom: 90px;  
+}
+
+.main {
+    margin: auto; 
+    width: 905px;
+}
+
+.article {
+    width: 420px;
+    min-height: 317px;
+    display: inline-block;
+    text-align: justify;
+    margin-right: 60px;
+}
+
+.mrg0 {
+    margin-right: 0;
+}
+
+.img-article {
+    margin-bottom: 28px;
+}
+
+.sp-article {
+    margin-bottom: 28px;
+    display: block;
+    text-transform: uppercase;
+    color: rgba(180, 173, 158, 255);
+}
+
+.h2-article {
+    margin-bottom: 39px;
+    font-size: 30px;
+    color: rgba(98, 98, 98, 255);
+}
+
+.p-article {
+    margin-bottom: 130px;
+    color: rgba(98, 98, 98, 255);
+}
+
+.button {
+    display: block;
+    margin: 0 auto 70px;
+    font-family: 'Playfair+Display', sans-serif;
+    padding: 21px 34px 22px 34px;
+    font-size: 20pt;   
+}
+
+.sp-button {
+    font-family: 'Playfair+Display', sans-serif;
+    color: rgba(98, 98, 98, 255);
+
+}
+

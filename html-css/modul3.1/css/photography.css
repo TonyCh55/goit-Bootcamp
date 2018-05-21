@@ -1,0 +1,27 @@
+.photography {
+    background-color: #fff;
+    background-size: cover;
+    padding: 100px 0;}
+
+.phot {
+    width: 750px;
+    margin: auto;
+    margin-bottom: 52px;
+}    
+
+.gallery {
+    width: 950px;
+    margin: 0 auto 100px;
+}
+
+.gallery-img {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery-img:nth-child(3n+3) {
+    margin-right: 0;}
+
+.gallery-img:nth-child(n+4) {
+    margin-bottom: 0;
+}

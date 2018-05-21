@@ -1,0 +1,50 @@
+.what-i-do {
+    background-color: #fff;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.name {
+    width: 851px;
+    margin: 0 auto 119px;}
+
+.pt30 {
+    font-size: 27px;
+    color: rgba(70, 75, 79, 255);
+    text-align: center;
+}
+
+.pt30:first-child {
+    margin-bottom: 45px;  
+}
+
+.title-I-do {
+    font-size: 60px;
+    text-transform: uppercase;
+    color: rgba(70, 75, 79, 255);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about{
+    display: inline-block;
+    width: 286px;
+    margin-right: 34px;
+}
+
+.about:last-child {
+    margin-right: 0;
+}
+
+.li {
+    font-size: 18px;
+    color: rgba(70, 75, 79, 255);
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+
+.pt18 {
+    font-style: 18px;
+    color: rgba(136, 138, 139, 255);
+    line-height: 28px;
+}
