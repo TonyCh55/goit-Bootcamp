@@ -1,0 +1,37 @@
+.nav {
+    float: right;
+}
+
+.logo-span {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgba(85, 82, 82, 1);
+}
+
+.logo-span:hover:first-letter {
+    color: rgba(26, 188, 156, 1);
+    font-weight: 700;
+}
+
+.menu-item {
+    float: left;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 35px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    color: rgba(26, 188, 156, 255);
+}
+
+.header {
+    margin-bottom: 100px;
+}
