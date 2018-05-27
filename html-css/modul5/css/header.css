@@ -1,0 +1,40 @@
+.nav {
+    float: right;
+    padding-right: 50px;
+}
+
+.logo-span {
+    float: left;
+    padding: 14px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgba(85, 82, 82, 1);
+}
+
+.logo-span:hover:first-letter {
+    color: rgba(26, 188, 156, 1);
+    font-weight: 700;
+}
+
+.menu {
+    padding: 26px 0;
+}
+
+.menu-item {
+    float: left;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 35px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    color: rgba(26, 188, 156, 255);
+}
+

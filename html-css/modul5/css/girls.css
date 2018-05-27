@@ -1,0 +1,28 @@
+.wrapper-slider {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../slide4@1X.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 195px 0 274px;
+    margin-bottom: 90px;
+}
+
+.girls {
+    width: 710px;
+    margin: auto;
+}
+
+.title-girls {
+    font-size: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.p {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+}
+

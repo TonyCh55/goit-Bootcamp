@@ -1,0 +1,17 @@
+.wrapper-foot {
+    background-color: #323232;
+    background-size: cover;
+    min-height: 90px;
+}
+
+.end {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 38px 0;
+    color: #fff;
+}
+
+.end-span {
+    color: #1abc9c;
+}

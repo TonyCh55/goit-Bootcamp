@@ -1,0 +1,138 @@
+.collection {
+    margin-bottom: 100px;   
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(85, 82, 82, 1);
+    text-align: center;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: rgba(26, 188, 156, 1);
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 25px;
+}
+
+.big {
+    width: 255px;
+    min-height: 283px;
+}
+
+.card {
+    float: left;
+    margin-right: 29px;
+    font-size: 0;
+    position: relative;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.name {
+    width: 75%;
+    background-color: #323232;
+    text-transform: uppercase;
+    padding: 8px 0 8px 14px;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.price {
+    width: 25%;
+    background-color: #8c8c8c;
+    padding: 8px 0;
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-align:center;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 255px;
+    height: 283px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 11px solid rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: 1s;
+}
+
+.four-btn {
+    width: 166px;
+    min-height: 108px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btns {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.btns:nth-child(3) {
+    margin-right: 0;
+}
+
+.btn-big {
+    width: 166px;
+    height: 50px;
+    border: 1px solid white;
+    float: left;
+    background-color: #323232;
+
+}
+
+.far {
+    font-size: 30px;
+    color: #fff;
+    padding: 9px 9px 9px 9px;
+}
+
+.cart {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 18px 18px 0 18px;
+}
+
+.card:hover .name {
+    background-color: #1abc9c;
+}
+
+.card:hover .price {
+    background-color: #7fd9c7;
+}
+
+.card:hover .dark {
+    opacity: 1;
+}
+
+.btns:hover {
+    background-color: #1abc9c;
+}
+
+.btn-big:hover {
+    background-color: #1abc9c;
+}
