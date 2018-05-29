@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 76.25rem;
+    min-width: 20rem;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
