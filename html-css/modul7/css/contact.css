@@ -1,0 +1,60 @@
+.wrapper-contact {
+    background-image: url(../img/MapImage@1X.png), linear-gradient(#222222,#222222);
+    /* background-size: cover; */
+    padding: 7.2rem 0;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.white {
+    color: #fff;
+}
+
+::placeholder {
+    font-size: 0.55rem;
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    color: #bbbbbb;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+input, .area {
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 14px;
+}
+
+.input-box {
+    display: flex;
+    flex-basis: 48%;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.text {
+    color: #666666;    
+    flex-basis: 100%;
+}
+
+.area {
+    flex-basis: 47%;
+    color: #666666;
+}
+
+.submit {
+    margin-top: 30px;
+    padding: 20px 45px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+}
+

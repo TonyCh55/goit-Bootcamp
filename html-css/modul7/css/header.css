@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 7rem;
+}
+
+.nav {
+    flex-basis: 50%;
+}
+
+.menu {
+    display: flex;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #222222;
+    justify-content: space-between;
+}
+
+.menu-item {
+    transition: 0.5s;
+}
+
+.menu-item:hover {
+    color: #fed136;
+    font-size: 0.8rem;
+}
+
+@font-face {
+    font-family: 'Wisdom';
+    src: url('../Wisdom Script AJ.otf') format('opentype');
+}
+
+.logo {
+    font-family: 'Wisdom',sans-serif;
+    font-size: 2.1rem;
+    color: #fed136;
+}
+
