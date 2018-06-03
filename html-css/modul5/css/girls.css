@@ -10,6 +10,7 @@
 .girls {
     width: 710px;
     margin: auto;
+    
 }
 
 .title-girls {
@@ -17,6 +18,36 @@
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 15px;
+}
+
+.title-girls::before {
+    content: '\003C';
+    display: block;
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    position: absolute;
+    opacity: 0.9;
+    top: 20px;
+    left: 5px;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.title-girls::after {
+    content: '\003E';
+    display: block;
+    width: 104px;
+    height: 104px;
+    background-color: #1abc9c;
+    position: absolute;
+    opacity: 0.9;
+    top: 20px;
+    right: 5px;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 300;
 }
 
 .p {

@@ -1,6 +1,5 @@
 .nav {
     float: right;
-    padding-right: 50px;
 }
 
 .logo-span {
@@ -13,7 +12,7 @@
     color: rgba(85, 82, 82, 1);
 }
 
-.logo-span:hover:first-letter {
+.logo-span:first-letter {
     color: rgba(26, 188, 156, 1);
     font-weight: 700;
 }

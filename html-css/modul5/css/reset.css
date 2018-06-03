@@ -17,6 +17,7 @@ ul {
 .container {
     width: 1120px;
     margin: auto;
+    position: relative;        
 }
 
 .clearfix::after {
