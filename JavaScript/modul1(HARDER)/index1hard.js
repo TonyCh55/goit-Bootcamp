@@ -31,25 +31,25 @@ let taba = 6;
 
 if (!isNaN(user) && Number.isInteger(user) && user > 0) {
     
-    if (user <= 6 ) {
-        confirm('Есть место в группе \"taba\", согласны ли вы быть в этой группе?');
-        if (user = true) {
+    if (user <= taba ) {
+        let decision = confirm('Есть мест в группе \"taba\", согласны ли вы быть в этой группе?');
+        if (decision === true) {
             alert('Приятного путешествия в группе \"taba\"');
         }  else {
             alert('Нам очень жаль, приходите еще!')}
     } 
     
-    else if (user > 6 && user <= 15) {
-        confirm('Есть место в группе \"sharm\", согласны ли вы быть в этой группе?');
-        if (user = true) {
+    else if (user > taba && user <= sharm) {
+        let decision = confirm('Есть место в группе \"sharm\", согласны ли вы быть в этой группе?');
+        if (decision === true) {
             alert('Приятного путешествия в группе \"sharm\"');
         } else {
             alert('Нам очень жаль, приходите еще!');}
     }
 
-    else if (user > 15 && user <= 25) {
-        confirm('Есть место в группе \"hurgada\", согласны ли вы быть в этой группе?')
-        if (user = true) {
+    else if (user > sharm && user <= hurgada) {
+        let decision = confirm('Есть место в группе \"hurgada\", согласны ли вы быть в этой группе?')
+        if (decision === true) {
             alert('Приятного путешествия в группе \"hurgada\"');
         } else {
             alert('Нам очень жаль, приходите еще!');}
