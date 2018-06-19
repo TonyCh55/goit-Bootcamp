@@ -1,0 +1,68 @@
+.wrapper-banner {
+    background-image: url(../img/Vector\ Smart\ Object@2X.png), linear-gradient(#000, #000);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-bottom: 8.8rem;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+}
+
+.header {
+    padding-top: 1.7rem;    
+}
+
+.in-up {
+    text-transform: capitalize;
+    min-height: 2.5rem;
+    margin-bottom: 6.1rem;
+}
+
+.log-sign {
+    font-weight: 700;
+    font-size: 1rem;
+    outline: none;
+}
+
+.log-sign:hover {
+    border: 0.1rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.5rem 0.9rem;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+}
+
+.h {
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.sub-title {
+    font-weight: 300;
+    font-size: 1.1rem;
+    width: 86%;
+    margin: auto;
+    margin-bottom: 1.3rem;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 3rem;
+    color: #fff;
+    background-color: #ff4e50;
+    font-weight: 700;
+    padding: 0.75rem 3.7rem;  
+    font-size: 0.87rem;
+}

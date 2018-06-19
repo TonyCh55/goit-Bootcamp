@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+    min-width: 20rem;
+    max-width: 60rem;
+    padding: 0 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+

@@ -33,6 +33,7 @@
     font-size: 80px;
     text-align: center;
     font-weight: 300;
+    opacity: 0.9;
 }
 
 .title-girls::after {
@@ -48,6 +49,7 @@
     font-size: 80px;
     text-align: center;
     font-weight: 300;
+    opacity: 0.9;
 }
 
 .p {
