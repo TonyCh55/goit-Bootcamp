@@ -34,28 +34,28 @@ let attempts = 3;
 
 // console.log(offer); 
 
-let offer =  prompt('Enter your password');
-if (offer === null) {
-    alert('Canceled');
-} else {
+let offer =  prompt('Enter your password'); //создаем переменную офер ей присваиваем значение промпт
+if (offer === null) { //создаем условие - если пользователь нажимает на отмену 
+    alert('Canceled');//то выводим алерт "отменено"
+} else { //если нет 
 
-    if (passwords.includes(offer)) {
-        alert('Добро пожаловать');
-    } else { 
-        for (let i = attempts; i > 0; i--){
+    if (passwords.includes(offer)) { //то создаем новое условие - если массив "пасвордс" включает введенный пользователем пароль 
+        alert('Добро пожаловать'); // то выводим алерт "добро..."
+    } else { //если нет 
+        for (let i = attempts; i > 0; i--){ //то делаем цикл для создания новых попыток при вводе пароля (присваиваем счетчику значение переменной атемптс, указываем что счетчик больше 0 и при каждом проходе отнимаем 1)
             attempts--;
-            if (attempts > 0) {
-            alert (`Password is incorrect, you have ${attempts} attempts`);
-            offer = prompt('Enter your password');
-                if (passwords.includes(offer)) {
-                    alert('Добро пожаловать');
-                    break;
+            if (attempts > 0) {//если попытки не закончились(больше 0)
+            alert (`Password is incorrect, you have ${attempts} attempts`);//то выводим что пароль неправильный  у вас осталось n попыток
+            offer = prompt('Enter your password');//после этого предлагать ввести пароль еще раз
+                if (passwords.includes(offer)) {//если массив включает вводимый пользователем пароль
+                    alert('Добро пожаловать');//выводить алерт
+                    break; //и заканчивать цикл
                 }  
-                else {continue;}
+                else {continue;} //если нет , проходить цикл заново
 
-            } else {
-                alert('Sorry, your account is blocked');
-                break;
+            } else { //если попыток мньше 1
+                alert('Sorry, your account is blocked'); //выводить алерт
+                break;//заканчивать цикл
             }
         }
     }
