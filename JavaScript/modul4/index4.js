@@ -3,15 +3,6 @@
   подсчитывает общую стоимость продуктов, и в зависимости от того хватает 
   денег или нет, уведомляет покупателя о результате.
 */
-
-/* Есть база данных товаров, в формате "имя-товара":"цена за одну единицу" */ 
-const products = {
-    bread: 10,
-    milk: 15,
-    apples: 20,
-    chicken: 50,
-    cheese: 40,
-  };
   
   /* 
     Необходимо создать функцию-конструктор Cashier.
@@ -47,10 +38,66 @@ const products = {
       
       - reset() - метод, сбрасывает поля totalPrice, customerMoney и changeAmount в 0.
   */
+
+  /* Есть база данных товаров, в формате "имя-товара":"цена за одну единицу" */ 
+  const products = {
+  bread: 10,
+  milk: 15,
+  apples: 20,
+  chicken: 50,
+  cheese: 40,
+  };
   
-  function Cashier(name, productsDatabase) {
+
+function Cashier(name, productsDatabase) {
     // 🔔 не забывайте о this при обращении к свойствам и методам будущего объекта
-  }
+    this.name = name;
+    this.productsDatabase = productsDatabase;
+    this.totalPrice = 0;
+    this.customerMoney = 0;
+    this.changeAmount = 0;
+
+    this.greet = function() {
+      alert(`Здравствуйте вас обслуживает ${this.name}`)
+    }
+    this.onSuccess = function() {
+      if (this.changeAmount > 0) {
+        alert (`Спасибо за покупку, ваша сдача ${this.changeAmount}`)
+      } else {
+        alert (`Спасибо за покупку`)
+      }
+    }
+    this.onError = function() {
+      alert(`Очень жаль, вам не хватает денег на покупки`)
+    }
+
+    this.countTotalPrice = function(orderObj) {
+      return Object.keys(orderObj).map(el => {
+        return orderObj[el] * productsDatabase[el]
+      }).reduce((acc, el) => {
+        return this.totalPrice = acc + el
+      })
+      }
+    
+    this.getCustomerMoney = function (value) {
+      return this.customerMoney = value
+    }
+
+    this.countChange = function () {
+      if (this.customerMoney > this.totalPrice) {
+        return this.customerMoney - this.totalPrice
+      } else {
+        return null
+      }
+    }
+
+    this.reset = function () {
+      this.totalPrice = 0;
+      this.customerMoney = 0;
+      this.changeAmount = 0;
+    }
+}
+
   
   /* Заказ пользователя хранится в виде объекта следующего формата. "имя-продукта":"количество-единиц" */
   const order = {
@@ -108,3 +155,6 @@ const products = {
   console.log(mango.totalPrice); // 0
   console.log(mango.customerMoney); // 0
   console.log(mango.changeAmount); // 0
+
+ 
+  
